@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings
 
 
 class RunConfig(BaseModel):
-    host: str = 'localhost'
+    host: str = '127.0.0.1'
     port: int = 8000
 
 
